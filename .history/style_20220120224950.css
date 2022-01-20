@@ -243,7 +243,7 @@ select {
     font-size: 1.2rem;
     letter-spacing: .5px;
     line-height: 1.5;
-    width: 100%;
+    width: 70%;
     font-weight: 300;
     text-align: justify;
     margin: 0 auto;
@@ -271,9 +271,8 @@ select {
 }
 
 .team {
-    width: 100%;
+    width: 60%;
     height: 100%;
-    overflow: hidden;
     /* padding: 1rem; */
 }
 
@@ -312,7 +311,7 @@ i.fas.fa-users {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -390,10 +389,6 @@ button.owl-next>span {
     width: 40px;
     height: 5px;
     border-radius: 0;
-}
-
-.swiper-pagination-bullet-active {
-    background: var(--secondary-color-4);
 }
 
 .testimonials {

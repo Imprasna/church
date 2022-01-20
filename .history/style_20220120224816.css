@@ -243,7 +243,7 @@ select {
     font-size: 1.2rem;
     letter-spacing: .5px;
     line-height: 1.5;
-    width: 100%;
+    width: 70%;
     font-weight: 300;
     text-align: justify;
     margin: 0 auto;
@@ -271,9 +271,8 @@ select {
 }
 
 .team {
-    width: 100%;
+    width: 60%;
     height: 100%;
-    overflow: hidden;
     /* padding: 1rem; */
 }
 
@@ -312,7 +311,7 @@ i.fas.fa-users {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -352,10 +351,9 @@ button.owl-next>span {
 .swiper {
     width: 100%;
     height: 100%;
-    padding: 3rem 0;
-}
+  }
 
-.swiper-slide {
+  .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -373,27 +371,29 @@ button.owl-next>span {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-}
+  }
 
-.swiper-slide img {
+  .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+  }
 
 .leader_whole {
     display: flex;
 }
 
 .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--swiper-pagination-bullet-inactive-color,#000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
     width: 40px;
     height: 5px;
     border-radius: 0;
-}
-
-.swiper-pagination-bullet-active {
-    background: var(--secondary-color-4);
 }
 
 .testimonials {
@@ -493,7 +493,7 @@ address>a {
     text-decoration: none;
 }
 
-.footer2>a>i.fab.fa-facebook,
+.footer2> a > i.fab.fa-facebook,
 i.fab.fa-instagram,
 i.fab.fa-youtube {
     font-size: 2rem;
@@ -502,15 +502,15 @@ i.fab.fa-youtube {
     transition: all .3s ease-out;
 }
 
-.footer2>a>i.fab.fa-facebook:hover {
+.footer2 > a > i.fab.fa-facebook:hover {
     color: var(--secondary-color-7);
 }
 
-.footer2>a>i.fab.fa-instagram:hover {
+.footer2 > a > i.fab.fa-instagram:hover {
     color: var(--secondary-color-8);
 }
 
-.footer2>a>i.fab.fa-youtube:hover {
+.footer2 > a > i.fab.fa-youtube:hover {
     color: var(--secondary-color-9);
 }
 

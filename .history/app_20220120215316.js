@@ -49,12 +49,12 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-$('.testimonel').owlCarousel({
+$('.owl-carousel').owlCarousel({
     loop: true,
     freeDrag: true,
     margin: 10,
-    nav: false,
-    dots: true,
+    nav: true,
+    dots: false,
     autoplay: true,
     mouseDrag: true,
     touchDrag: true,
@@ -70,51 +70,24 @@ $('.testimonel').owlCarousel({
         },
         1000: {
             items: 2,
-            nav: false,
-            loop: true,
+            nav: true,
+            loop: true
         },
         1200: {
             items: 2,
-            nav: false,
-            loop: true, 
+            nav: true,
+            loop: true
         }
     }
 });
 
 
 // Spline
-// var splide = new Splide( '.splide', {
-//     type   : 'loop',
-//     perPage: 3,
-//     perMove: 1,
-//     focus  : 'center',
-//   } );
+var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+    focus  : 'center',
+  } );
   
-// splide.mount();
-  
-
-// Slider.js
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    freeMode: true,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 50,
-        },
-      },
-  });
+  splide.mount();
