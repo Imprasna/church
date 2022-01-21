@@ -179,13 +179,13 @@ select {
 
 .scroll_line {
     position: absolute;
-    height: 15%;
+    height: 2%;
     width: 2px;
     background: var(--secondary-color);
     left: 2rem;
     top: 70%;
     transition: all .8s;
-    animation: bobScroll 2s infinite;
+    animation: bobScroll 3s infinite;
 }
 
 .scroll_line::before {

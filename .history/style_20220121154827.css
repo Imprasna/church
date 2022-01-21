@@ -185,7 +185,7 @@ select {
     left: 2rem;
     top: 70%;
     transition: all .8s;
-    animation: bobScroll 2s infinite;
+    animation: bobScroll 1s infinite;
 }
 
 .scroll_line::before {
