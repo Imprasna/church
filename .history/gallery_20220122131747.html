@@ -283,11 +283,10 @@
     fsLightboxInstances['first-lightbox'].open(0);
     fsLightboxInstances['second-lightbox'].props.onOpen = () => console.log('Lightbox open!');
 
-    // fsLightboxInstances['gallery'].props.slideDistance = 5.5;
-    fsLightboxInstances['lightbox'].props.onSlideChange = (fsLightbox) => console.log(fsLightbox);
+    fsLightboxInstances['gallery'].props.slideDistance = 0.5;
 
-    // fsLightbox.close();
-    // refreshFsLightbox();
+    fsLightbox.close();
+    refreshFsLightbox();
   </script>
 
   <script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/52dce4641c.js" crossorigin="anonymous"></script>
+    <script src="fslightbox.js"></script>
+    <title>Gallery</title>
+</head>
+
+
+<style type="text/css">
+    a.gflag {
+      vertical-align: middle;
+      font-size: 24px;
+      padding: 1px 0;
+      background-repeat: no-repeat;
+      background-image: url(//gtranslate.net/flags/24.png);
+    }
+  
+    a.gflag img {
+      border: 0;
+    }
+  
+    a.gflag:hover {
+      background-image: url(//gtranslate.net/flags/24a.png);
+    }
+  
+    #goog-gt-tt {
+      display: none !important;
+    }
+  
+    .goog-te-banner-frame {
+      display: none !important;
+    }
+  
+    .goog-te-menu-value:hover {
+      text-decoration: none !important;
+    }
+  
+    body {
+      top: 0 !important;
+    }
+  
+    #google_translate_element2 {
+      display: none !important;
+    }
+  </style>
+  
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+  
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#">Testimonials</a>
+      </nav>
+  
+      <div class="dropdownn">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Churches</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Church 1</a>
+            <a href="#">Church 2</a>
+            <a href="#">Church 3</a>
+            <a href="#">Church 4</a>
+          </div>
+        </div>
+  
+        <!-- GTranslate: https://gtranslate.io/ -->
+        <!-- <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl"
+          style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24"
+            alt="English" /></a><a href="#" onclick="doGTranslate('en|ne');return false;" title="Nepali"
+          class="gflag nturl" style="background-position:-200px -900px;"><img src="//gtranslate.net/flags/blank.png"
+            height="24" width="24" alt="Nepali" /></a> -->
+  
+  
+  
+        <br /><select onchange="doGTranslate(this);">
+          <option value="">Select Language</option>
+          <option value="en|en">English</option>
+          <option value="en|hi">Hindi</option>
+          <option value="en|bn">Bengali</option>
+          <option value="en|kn">Kannada</option>
+          <option value="en|mr">Marathi</option>
+          <option value="en|ne">Nepali</option>
+          <option value="en|pa">Punjabi</option>
+          <option value="en|ta">Tamil</option>
+          <option value="en|te">Telugu</option>
+        </select>
+        <div id="google_translate_element2"></div>
+  
+  
+  
+  
+  
+      </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="hero_sec">
+              <img src="images/gallery2.jpg" alt="">
+              
+              <div class="scroll_line">
+                <p>Scroll</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+              <h1>Ga</h1>
+          </section>
+
+    </main>
+
+    <footer>
+        <div class="footer1">
+          <address><a href="#"> 4/66c, kallingarai, cherumulli Post, Gudalur, Pincode - 643211,
+              Nilgiris.</a></address>
+        </div>
+        <div class="footer2">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </footer>
+    
+      <div class="copyright">
+        <div class="copy1">
+          <p>Copyright &copy; <script>
+              document.write(new Date().getFullYear())
+            </script> Bethsetha. All Rights Reserved</p>
+        </div>
+        <di class="copy2">
+          <p>Designed by <a href="http://">Prasanna S</a></p>
+      </div>
+      </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

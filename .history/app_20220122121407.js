@@ -120,9 +120,16 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 //   Gallery Masonary
-// window.onload = () => {
-//     const grid = document.querySelector('.grid');
+window.onload = () => {
+    const grid = document.querySelector('.grid');
 
     
-// }
+}
 
+$('.grid').masonry({
+    // set itemSelector so .grid-sizer is not used in layout
+    itemSelector: '.grid-item',
+    // use element for option
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  })
