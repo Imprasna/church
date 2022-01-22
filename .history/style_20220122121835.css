@@ -115,9 +115,11 @@ select {
     background-color: #ddd
 }
 
-.scroll_line>p {
+.scroll_line > p {
     display: flex;
-    transform: rotate(270deg) translateX(25px);
+    transform: rotate(
+270deg
+) translateX(25px);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -532,31 +534,13 @@ i.fab.fa-youtube {
 
 
 /* Gallery Page */
+/* .grid {
+    background: #EEE;
+    max-width: 1200px;
+  } */
 
-.gallerys>h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--secondary-color);
-}
+.grid-item { width: 200px; }
 
-
-.grid {
-    width: 90%;
-    margin: 0 auto;
-    height: 100%;
-    padding: 3rem 0;
-}
-
-.grid-item {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-
-.grid-item>a img {
+.grid-item > img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }

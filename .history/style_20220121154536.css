@@ -115,12 +115,9 @@ select {
     background-color: #ddd
 }
 
-.scroll_line>p {
+.scroll_things {
     display: flex;
-    transform: rotate(270deg) translateX(25px);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    al
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -177,13 +174,13 @@ select {
 
 .scroll_line {
     position: absolute;
-    height: 15%;
+    height: 20%;
     width: 2px;
     background: var(--secondary-color);
     left: 2rem;
     top: 70%;
     transition: all .8s;
-    animation: bobScroll 2s infinite;
+    animation: bobScroll 3s infinite;
 }
 
 .scroll_line::before {
@@ -528,35 +525,4 @@ i.fab.fa-youtube {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-
-/* Gallery Page */
-
-.gallerys>h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--secondary-color);
-}
-
-
-.grid {
-    width: 90%;
-    margin: 0 auto;
-    height: 100%;
-    padding: 3rem 0;
-}
-
-.grid-item {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-
-.grid-item>a img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }

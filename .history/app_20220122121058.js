@@ -120,9 +120,11 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 //   Gallery Masonary
-// window.onload = () => {
-//     const grid = document.querySelector('.grid');
+window.onload = () => {
+    const grid = document.querySelector('.grid');
 
-    
-// }
-
+    const masonry = new Mansonry(grid, {
+        itemSelector: '.grid-item',
+        gutter
+    })
+}
