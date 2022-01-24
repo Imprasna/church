@@ -506,7 +506,7 @@ button.owl-next>span {
 
 .form > form > button {
     align-self: flex-start;
-    padding: 1rem 0rem;
+    padding: .5rem 0rem;
     font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -516,13 +516,6 @@ button.owl-next>span {
     margin: 1rem 0;
     width: 20%;
     border: 1px solid var(--secondary-color);
-    background: var(--primary-color);
-}
-
-.form > form > label {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
 }
 
 .form > form > button {
@@ -530,8 +523,7 @@ button.owl-next>span {
     transition: background 0.5s;
   }
   .form > form > button:hover {
-      color: var(--primary-color);
-    background: var(--secondary-color-2) radial-gradient(circle, transparent 1%, var(--secondary-color-2) 1%) center/15000%;
+    background: var(--secondary-color-2) radial-gradient(circle, transparent 1%, var(--focus-color) 1%) center/15000%;
   }
   .form > form > button:active {
     background-color: var(--secondary-color-4);

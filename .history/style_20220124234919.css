@@ -519,11 +519,7 @@ button.owl-next>span {
     background: var(--primary-color);
 }
 
-.form > form > label {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
+.form > form > label 
 
 .form > form > button {
     background-position: center;

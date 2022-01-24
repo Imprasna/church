@@ -519,18 +519,12 @@ button.owl-next>span {
     background: var(--primary-color);
 }
 
-.form > form > label {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
 .form > form > button {
     background-position: center;
     transition: background 0.5s;
   }
   .form > form > button:hover {
-      color: var(--primary-color);
+      color: ;
     background: var(--secondary-color-2) radial-gradient(circle, transparent 1%, var(--secondary-color-2) 1%) center/15000%;
   }
   .form > form > button:active {
