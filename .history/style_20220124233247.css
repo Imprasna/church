@@ -486,16 +486,7 @@ button.owl-next>span {
     color: var(--secondary-color);
 }
 
-.form > form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-    /* align-items: start; */
-}
-
-.form > form > input, textarea {
+.form > form > input {
     padding: .5rem;
     font-size: 1.2rem;
     letter-spacing: 1px;

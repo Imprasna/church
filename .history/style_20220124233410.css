@@ -491,8 +491,7 @@ button.owl-next>span {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    justify-content: center;
-    /* align-items: start; */
+    al
 }
 
 .form > form > input, textarea {
